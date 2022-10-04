@@ -1,0 +1,6 @@
+.Project__container {
+    display: flex;  
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+   
+}
