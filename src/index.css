@@ -36,16 +36,16 @@
 }
 /* ==================== Responsive Topography =======================*/
 @media screen and (max-width:1024px)
-:root{
-    -h1-font-size: 1.75rem;
-     --h2-font-size: 1.25rem;
-     --h3-font-size: 1rem;
-     --normal-font-size: 0.938rem;
-     --small-font-size: 0.813rem;
-     --smaller-font-size: 0.75rem;
+   { :root {
+        --h1-font-size: 1.75rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: 1rem;
+        --normal-font-size: 0.938rem;
+        --small-font-size: 0.813rem;
+        --smaller-font-size: 0.75rem;
 
-}
-
+    }
+   }
 /* ==================== BASE =======================*/
 *{
     border: 0;
@@ -61,7 +61,7 @@ body,button,textarea,input{
 }
 body{
     background-color: var(--body-color);
-    list-height: 1.7;
+    list-style: 1.7;
     color:var(--text-color);
 }
 h1,h2,h3{
@@ -134,11 +134,11 @@ img{
 
 
 
-@keyframes button push{
-    50%{
+@keyframes buttonpush {
+    50% {
         transform: scale(0.8);
     }
-    100%{
+    100% {
         transform:scale(1);
     }
 }
